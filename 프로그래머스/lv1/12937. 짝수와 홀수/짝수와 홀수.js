@@ -1,7 +1,7 @@
 function solution(num) {
-    if (num % 2 === 0) { // num이 짝수인 경우
+    if ( num % 2 == 0 ) {
         return "Even";
-    } else { // num이 홀수인 경우
+    } else  {
         return "Odd";
     }
 }
